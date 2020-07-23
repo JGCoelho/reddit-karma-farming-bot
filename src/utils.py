@@ -76,7 +76,7 @@ SUBREDDIT_LIST = ["AskReddit", "aww", "pics", "videos", "todayilearned",
                   "forwardsfromgrandma", "forbiddensnacks", "facepalm", "expectationvsreality",
                   "everymanshouldknow", "entitledbitch", "engrish", "dontdeadopeninside", "didntknowiwantedthat",
                   "designporn", "cozyplaces", "contagiouslaughter", "AbandonedPorn", "BlackPeopleTwitter",
-                  "interestingasfuck", "eyebleach", "whitepeopletwitter", "mademesmile"
+                  "interestingasfuck", "eyebleach", "whitepeopletwitter", "mademesmile"]
                   # limit learning and posting to these subreddits. Empty = Random
 DISALLOWED_WORDS_FILENAME = os.path.join(BASE_DIR, "disallowed_words.txt")
 DISALLOWED_SUBS_FILENAME = os.path.join(BASE_DIR, "disallowed_subs.txt")
