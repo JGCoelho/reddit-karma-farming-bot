@@ -95,9 +95,9 @@ SPINREWRITER_EMAIL_ADDRESS = ""
 SPINREWRITER_API_KEY = ""
 
 #IMGUR UPLOAD OPTIONS
-DO_WE_REUPLOAD_TO_IMGUR = False
-imgur_client_id = ""
-imgur_client_secret = ""
+DO_WE_REUPLOAD_TO_IMGUR = True
+imgur_client_id = "848b1ff6cb5d385"
+imgur_client_secret = "fab33a95772416ac603904941c37a42133c1e0ed"
 
 DO_WE_ADD_PARAMS_REUPLOAD = False
 
