@@ -40,7 +40,44 @@ PROBABILITIES = {
   "DELETE": 0.02 }
 MAX_CACHE_SIZE = 128
 NUMBER_DAYS_FOR_POST_TO_BE_OLD = 365
-SUBREDDIT_LIST = [] # limit learning and posting to these subreddits. Empty = Random
+SUBREDDIT_LIST = ["AskReddit", "aww", "pics", "videos", "todayilearned",
+                  "showerthoughts", "EarthPorn", "Jokes", "explainlikeimfive",
+                  "LifeProTips", "mildlyinteresting", "gadgets", "photoshopbattles",
+                  "InternetIsBeautiful", "history", "WritingPrompts", "nosleep", "creepy",
+                  "AdviceAnimals", "wholesomememes", "oddlysatisfying", "me_irl", "meirl",
+                  "lifehacks", "facepalm", "therewasanattempt", "NatureIsFuckingLit",
+                  "Tinder", "Whatcouldgowrong", "woahdude", "photography", "dadjokes",
+                  "instant_regret", "mildlyinfuriating", "twosentencehorror",
+                  "2meirl4meirl", "4chan", "ABoringDystopia", "AbsoluteUnits",
+                  "agedlikemilk", "agedlikewine", "Angryupvote", "AnimalsBeingJerk",
+                  "animation", "animegifs", "animememes", "ANormalDayInRussia",
+                  "awfuleverything", "Bad_Cop_No_Donut", "BikiniBottomTwitter",
+                  "BoneAppleTea", "BreakUps", "CarPorn", "ChoosingBeggers", "combinedgifs",
+                  "ComedyCemetery", "ContagiousLaugh", "CrappyDesign", "crappyoffbrands",
+                  "creepyasterisks", "creepypasta", "Cringetopia", "Damnthatsinteresting",
+                  "dankmemes", "youtubehaiku", "youseeingthisshit", "youngpeopleyoutube",
+                  "WTF", "woooosh", "woof_irl", "WinStupidPrizes", "wholesomebpt",
+                  "whitepeoplegifts", "WatchPeopleDieInside", "WatchAndLearn", "virginvschad",
+                  "vaporwave", "unsentletters", "truereddit", "tumblr", "trippinthroughtime",
+                  "TikTokThots", "TikTokCringe", "ThingsCutInHalfPorn", "TheoryOfReddit",
+                  "NextFuckingLevel", "theyknew", "theydidthemath", "thathappened",
+                  "technicallythetruth", "talesfromthecustomer", "SweatyPalms", "suicidebywords",
+                  "suddenlygay", "starterpacks", "spaceporn", "shortscarystories",
+                  "ShittyLifeProTips", "shittykickstarters", "Selfawarewolves", "RoomPorn",
+                  "Roadcam", "riddles", "reactiongifs", "rarepuppers", "rareinsults",
+                  "PublicFreakout", "quotes", "PropagandaPosters", "ProRevenge", "ProgrammerHumor",
+                  "PraiseTheCameraMan", "powerwashingporn", "perfectlycutscreams", 
+                  "pettyrevenge", "OopsDidntMeanTo", "ofcoursethatsathing", "nonononoyes",
+                  "niceguys", "nevertellmetheodds", "MetalMemes", "memes", "mapporn", "madlads",
+                  "Itookapicture", "ithadtobebrazil", "instagramreality", "insanepeoplefacebook",
+                  "insaneparents", "illegallysmolcats", "illegallifeprotips", "ihavesex",
+                  "ihadastroke", "idiotsfightingthings", "iamverybadass", "iamactuallyverybadass",
+                  "humansaremetal", "historyporn", "greentext", "gay_irl", "gatekeeping",
+                  "forwardsfromgrandma", "forbiddensnacks", "facepalm", "expectationvsreality",
+                  "everymanshouldknow", "entitledbitch", "engrish", "dontdeadopeninside", "didntknowiwantedthat",
+                  "designporn", "cozyplaces", "contagiouslaughter", "AbandonedPorn", "BlackPeopleTwitter",
+                  "interestingasfuck", "eyebleach", "whitepeopletwitter", "mademesmile"
+                  # limit learning and posting to these subreddits. Empty = Random
 DISALLOWED_WORDS_FILENAME = os.path.join(BASE_DIR, "disallowed_words.txt")
 DISALLOWED_SUBS_FILENAME = os.path.join(BASE_DIR, "disallowed_subs.txt")
 # Logging options
